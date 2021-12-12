@@ -1,31 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./component/Header";
+import Daylist from "./component/DayList";
+import Day from "./component/Day";
+
 
 function App() {
-
-    const name = "Tom";
-    const naver = {
-        name : "네이버",
-        url : "https://naver.com",
-    }
-
   return (
-    <div className="App">
-
-
-      <h1 style={{
-          color : "red",
-          backgroundColor : "green",
-      }}>
-        welcome, {name}.
-      </h1>
-
-        <a href={naver.url}>
-            {naver.name}
-        </a>
-
-
-    </div>
+     <div className="App">
+         <Header />
+         <Daylist />
+         <Day />
+     </div>
   );
 }
 

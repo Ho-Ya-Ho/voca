@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ##'json-server --watch ./src/db/data.json --port 3001'    //back실행
+
 ##'npm start'    //front실행
 
 ## Available Scripts
